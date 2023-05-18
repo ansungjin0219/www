@@ -1,0 +1,49 @@
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+/* 주주구성 영역 */
+#content .shareholder{position: relative; overflow: hidden;}
+#content .shareholder h3{font-size: 40px; font-weight: 700; text-align: center;
+margin-top: 50px;}
+#content .chart{width: 40%; margin: 100px auto; float: left;}
+#content .shareholder span{display: block; position: absolute;
+right: 0; top:150px; font-size: 1em;}
+#content .shareholder table{width: 500px; font-size: 20px; margin-left: 700px;
+margin-top: 100px;}
+#content .shareholder thead{border-top: 2px solid #333;
+background: #e9e9e9;}
+#content .shareholder tbody{color: #999;}
+#content .shareholder tfoot{font-weight: 700;}
+#content .shareholder tr{border-left: 2px solid #fff; border-right: 2px solid #fff;}
+#content .shareholder th, td{border: 1px solid #ccc; padding: 30px;
+text-align: center;}
+#content .shareholder th:nth-of-type(2n+1){width: 250px;}
+#content .shareholder th:nth-of-type(2n+2){width: 250px;}
+
+/* 경영실적 영역 */
+#content .business_performance{position: relative;}
+#content .business_performance h3{font-size: 40px; text-align: center;
+margin-top: 100px;}
+#content .business_performance span{display: block; position: absolute;
+right: 0; top:100px; font-size: 1em;}
+#content .business_performance table{margin-top: 100px; width: 1200px;
+font-size: 20px;}
+#content .business_performance thead{border-top: 2px solid #333;
+background: #e9e9e9;}
+#content .business_performance tbody{color: #999;}
+#content .business_performance tfoot{font-weight: 700;}
+#content .business_performance tr{border-left: 2px solid #fff; border-right: 2px solid #fff;}
+#content .business_performance th, td{border: 1px solid #ccc; padding: 30px;
+text-align: center;}
+/* 주식현황 영역 */
+#content .stock_status{position: relative; padding-bottom: 100px;}
+#content .stock_status h3{font-size: 40px; text-align: center;
+margin-top: 100px;}
+#content .stock_status table{margin-top: 100px; width: 1200px;
+font-size: 20px; border-top: 2px solid #333;}
+#content .stock_status tr{border-left: 2px solid #fff; border-right: 2px solid #fff;}
+#content .stock_status th{background: #e9e9e9;
+width: 600px;}
+#content .stock_status td{width: 600px;}
+#content .stock_status th, td{border: 1px solid #ccc; padding: 30px;}
+#content .stock_status td{color: #999;}
+#content .stock_status span{display: block; position: absolute;
+left: 0; bottom:50px; font-size: 1em;}

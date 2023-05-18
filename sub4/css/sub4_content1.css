@@ -1,0 +1,38 @@
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+/* text영역 */
+#content .text{width: 1200px; margin-top: 50px;}
+#content .text p{font-size: 30px; font-weight: 500; width: 800px;
+margin: 0 auto; text-align: center; border-bottom: 2px solid red;
+padding-bottom: 20px; line-height: 2em;}
+/*  */
+#content .talent{width: 2000px; position: relative; left:50%; top:0;
+margin-left: -1000px; background: #f9f9f9; margin-top: 200px; padding-bottom: 50px;}
+#content .talent h3{font-size: 40px; font-weight: 700; text-align: center;
+transform: translateY(-100px);}
+#content .talent_inner{width: 1200px; margin: 0 auto;}
+#content .talent_gallery .img li{position: relative; display: none;}
+#content .talent_gallery .img img{background: red; width: 100%; height: 500px;
+border-radius: 20px;}
+#content .talent_gallery h4{font-size: 30px; font-weight: 700;
+position: absolute; left:440px; top:180px; color: #fff; display: none;}
+#content .talent_gallery li:nth-of-type(2) h4{left:420px}
+#content .talent_gallery p{font-size: 18px; font-weight: 500;
+position: absolute; left:300px; top:250px; text-align: center;
+color: #fff; line-height: 2em; display: none;}
+#content .talent_gallery li:nth-of-type(2) p{left:340px}
+#content .talent_gallery li:nth-of-type(4) p{left:330px}
+#content .talent_gallery .imglist{overflow: hidden; margin-top: 16px;}
+#content .talent_gallery .imglist li{float: left; width: 24%;
+height: 200px; overflow: hidden; border-radius: 20px; margin-left: 16px;
+position: relative; z-index: 10;}
+#content .talent_gallery .imglist li:first-of-type{margin-left: 0;}
+#content .talent_gallery .imglist li:last-of-type{margin-right: 0;}
+#content .talent_gallery .imglist li::before{content: '혁신적 도전'; display: block; 
+font-size: 25px; font-weight: 700; color: #fff; position: absolute;
+top:75px; left:90px; z-index: 20;}
+#content .talent_gallery .imglist li:nth-of-type(2)::before{content: '열린마음';}
+#content .talent_gallery .imglist li:nth-of-type(3)::before{content: '고객가치';}
+#content .talent_gallery .imglist li:nth-of-type(4)::before{content: '기본과 원칙';}
+#content .talent_gallery .imglist img{width: 500px; filter: grayscale(0);
+transition: all 0.5s ease;}
+#content .talent_gallery .imglist li:hover img{transform: scale(1.1);}

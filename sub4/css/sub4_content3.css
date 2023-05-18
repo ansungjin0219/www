@@ -1,0 +1,91 @@
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+/* 본사직원 영역 */
+#content .employee1{width: 2000px; position: relative;
+left:50%; top:0; margin-left: -1000px; border-bottom: 3px dotted #ccc;
+margin-top: 200px;}
+#content .employee1_inner{width: 1200px; margin: 0 auto;}
+#content .employee1_inner h3{font-size: 40px; font-weight: 700;
+text-align: center; transform: translateY(-150px);}
+#content .employee1_inner h3>span{display: block; font-size: 18px;
+font-weight: 500; color: red;}
+#content .employee1_inner>p{font-size: 20px; font-weight: 500;
+text-align: center; transform: translateY(-130px);}
+#content .employee1_inner strong{display: block; width: 200px;
+background: red; text-align: center; margin-left: 480px;
+padding: 20px; font-size: 20px; font-weight: 500; color: #fff;
+border-radius: 100px;}
+#content .employee1_inner ol{overflow: hidden;}
+#content .employee1_inner li{float: left; background: #fff;
+width: 219px; height: 219px; border-radius: 200px;
+margin: 100px 0 50px 22px; box-shadow: 5px 5px 15px rgba(0,0,0,0.1);}
+#content .employee1_inner li:first-of-type{margin-left: 2px;}
+#content .employee1_inner img{width: 80px; margin-left: 70px;
+margin-top: 35px;}
+#content .employee1_inner li span{display: block; font-size: 16px;
+color: #999; text-align: center; margin-top: 10px;}
+#content .employee1_inner li p{text-align: center; font-size: 18px;
+font-weight: 700; margin-top: 5px;}
+#content .employee1_inner dl{overflow: hidden;}
+#content .employee1_inner dt{margin: 0 0 50px 530px; font-size: 25px; 
+font-weight: 700;}
+#content .employee1_inner dt span{position: relative; left:-10px; top:2px;
+color: red;}
+#content .employee1_inner dt span:last-of-type{margin-left: 25px;}
+#content .employee1_inner dd{float: left; margin-bottom: 100px;
+font-size: 20px; font-weight: 500; margin-left: 40px;
+border-right: 2px solid #ccc; padding-right: 40px; color: #666;}
+#content .employee1_inner dd:last-of-type{border-right: 0;}
+#content .employee1_inner dd:first-of-type{margin-left: 250px;}
+/* 고객접점직원 영역 */
+#content .employee2{width: 2000px; position: relative;
+left:50%; top:0; margin-left: -1000px; border-bottom: 3px dotted #ccc;
+margin-top: 250px;}
+#content .employee2_inner{width: 1200px; margin: 0 auto;}
+#content .employee2_inner h3{font-size: 40px; font-weight: 700;
+text-align: center; transform: translateY(-150px);}
+#content .employee2_inner h3>span{display: block; font-size: 18px;
+font-weight: 500; color: red;}
+#content .employee2_inner>p{font-size: 20px; font-weight: 500;
+text-align: center; transform: translateY(-130px);}
+#content .employee2_inner strong{display: block; width: 200px;
+background: red; text-align: center; margin-left: 480px;
+padding: 20px; font-size: 20px; font-weight: 500; color: #fff;
+border-radius: 100px;}
+#content .employee2_inner ol{overflow: hidden;}
+#content .employee2_inner li{float: left; background: #fff;
+width: 220px; height: 220px; border-radius: 200px;
+margin: 100px 0 50px 100px; box-shadow: 5px 5px 15px rgba(0,0,0,0.1);}
+#content .employee2_inner li:first-of-type{margin-left: 2px;}
+#content .employee2_inner li:last-of-type{margin-right: 5px;}
+#content .employee2_inner img{width: 80px; margin-left: 70px;
+margin-top: 35px;}
+#content .employee2_inner li span{display: block; font-size: 16px;
+color: #999; text-align: center; margin-top: 10px;}
+#content .employee2_inner li p{text-align: center; font-size: 18px;
+font-weight: 700; margin-top: 5px;}
+#content .employee2_inner dl{overflow: hidden;}
+#content .employee2_inner dt{margin: 0 0 50px 530px; font-size: 25px; 
+font-weight: 700;}
+#content .employee2_inner dt span{position: relative; left:-10px; top:2px;
+color: red;}
+#content .employee2_inner dt span:last-of-type{margin-left: 25px;}
+#content .employee2_inner dd{float: left; margin-bottom: 100px;
+font-size: 20px; font-weight: 500; margin-left: 40px;
+border-right: 2px solid #ccc; padding-right: 40px; color: #666;}
+#content .employee2_inner dd:last-of-type{border-right: 0;}
+#content .employee2_inner dd:first-of-type{margin-left: 200px;}
+/* 근무지 영역 */
+#content .company{width: 1200px; margin: 0 auto;}
+#content .company h3{font-size: 40px; margin-top: 100px;
+text-align: center;}
+#content .company table{margin: 100px 0 200px 0;}
+#content .company thead{background: #e9e9e9;}
+#content .company tr{border-left: 2px solid #fff;
+border-right: 2px solid #fff;}
+#content .company thead th:first-of-type{width: 500px;}
+#content .company thead th:last-of-type{width: 700px;}
+#content .company thead tr:first-of-type{border-top: 2px solid #333;}
+#content .company th{font-size: 20px; font-weight: 700;}
+#content .company th, td{border: 1px solid #ccc;
+padding: 20px; text-align: center; font-size: 20px;}
+#content .company td{font-weight: 500; color: #999;}

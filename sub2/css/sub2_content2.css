@@ -1,0 +1,76 @@
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+/* 사업영역 영역 */
+#content .business{width: 1200px; margin-top: 50px; position: relative;}
+#content .business h3{font-size: 40px; font-weight: 700; text-align: center;}
+#content .business p:nth-of-type(1){font-size: 25px; font-weight: 400; text-align: center;
+margin-top: 10px;}
+#content .business ul{width: 475px; height: 477px; background: url(../images/content2/sub2_con1.png);
+text-indent: -999px; overflow: hidden; margin: 100px auto;}
+#content .business p:nth-of-type(2){position: absolute; left:0; top:200px;
+width: 350px; text-align: justify; font-size: 18px; line-height: 1.5em;
+border-top: 2px solid red; padding-top: 20px;}
+#content .business p:nth-of-type(3){position: absolute; right: 0; top:450px;
+width: 340px; text-align: justify; font-size: 18px; line-height: 1.5em;
+border-bottom: 2px solid red; padding-bottom: 20px;}
+/* 아웃소싱 영역 */
+#content .outsourcing{border: 1px solid #ccc; width: 2000px; 
+position: relative; left: 50%; top:0; margin-left: -1000px;}
+#content .outsourcing_inner{width: 1200px; height: 1000px; margin: 0 auto;
+background: url(../images/content2/sub2_con2_01.jpg)right 90px no-repeat;
+position: relative;}
+#content .outsourcing_inner::after{content: ''; display: block;
+border-bottom: 1px dashed #ccc; position: absolute; left:0; top:500px;
+width: 1200px;}
+#content .outsourcing_inner h3{font-size: 40px; font-weight: 700;
+position: absolute; left:0; top:100px}
+#content .outsourcing_inner p{font-size: 18px; font-weight: 400;
+position: absolute; left:0; top:170px; width: 500px;
+text-align: justify; line-height: 2em;}
+#content .outsourcing_inner ul{width: 1200px; position: absolute;
+left:0; top:590px; overflow: hidden;}
+#content .outsourcing_inner li{float: left; width: 300px; height: 300px;
+text-align: center; border-radius: 300px; margin-left: 100px;
+transition: all 0.5s ease;}
+#content .outsourcing_inner li:hover{filter: grayscale(1);}
+#content .outsourcing_inner li:nth-of-type(1){margin-left: 50px;
+background: url(../images/content2/sub2_con2_02.jpg);}
+#content .outsourcing_inner li:nth-of-type(2){
+background: url(../images/content2/sub2_con2_03.jpg) center;}
+#content .outsourcing_inner li:nth-of-type(3){
+background: url(../images/content2/sub2_con2_04.jpg);}
+#content .outsourcing_inner dl{background: rgba(0,0,0,0.3);
+width: 100%; height: 100%; border-radius: 300px; position: relative;
+overflow: hidden;}
+#content .outsourcing_inner dt{font-size: 30px; font-weight: 500;
+position: absolute; left:100px; top:120px; color: #fff;
+transition: all 0.5s  ease;}
+#content .outsourcing_inner li:hover dt{top:300px; color: rgba(0,0,0,0);}
+#content .outsourcing_inner dd{width: 200px; margin: 80px 50px 0 50px;
+line-height: 2em; font-size: 16px; font-weight: 500; color: #fff;
+color: rgba(0,0,0,0); transition: all 1s ease;}
+#content .outsourcing_inner li:hover dd{color: #fff;}
+#content .outsourcing_inner li:first-of-type dd{margin-top: 60px;}
+/* 핵심역량 영역 */
+#content .core{margin: 100px 0 200px 0;}
+#content .core h3{font-size: 40px; font-weight: 700;
+text-align: center;}
+#content .core p{font-size: 18px; font-weight: 500; 
+text-align: center; margin-top: 20px;}
+#content .core ul{overflow: hidden; margin-top: 100px;}
+#content .core li{float: left; width: 295px; height: 400px; overflow: hidden;
+margin-left: 5px;}
+#content .core li:nth-of-type(1){background: url(../images/content2/sub2_con3_01.jpg);}
+#content .core li:nth-of-type(2){margin-top: 50px;
+background: url(../images/content2/sub2_con3_02.jpg);}
+#content .core li:nth-of-type(3){background: url(../images/content2/sub2_con3_03.jpg);}
+#content .core li:nth-of-type(4){margin-top: 50px;
+background: url(../images/content2/sub2_con3_04.jpg);}
+#content .core dl{width: 100%; height: 100%; background: rgba(0,0,0,0.5);
+text-align: center; color: #fff; margin-top: 320px;
+transition: all 0.5s ease;}
+#content .core li:hover dl{margin-top: 0;}
+#content .core dt{font-size: 25px; font-weight: 500; padding: 20px 0 50px 0;
+transition: all 0.5s ease; transition-delay: 0.5s;}
+#content .core li:hover dt{padding-top: 70px;}
+#content .core dd{font-size: 18px; font-weight: 400; padding: 10px 30px 0 30px;}
+#content .core span{position: relative; left:0; top:5px;}

@@ -1,0 +1,54 @@
+/* 약관동의 영역 */
+body{background: #f6f6f6; background-attachment: fixed;}
+header .logo{margin: 50px auto 0; width: 100px; height: 50px;}
+header .logo a{display: block; width: 100px; height: 50px;
+text-indent: -9999px; overflow: hidden; background: url(../images/logo.png) no-repeat;}
+#content{width: 750px; margin: 50px auto 100px; padding: 70px;
+font-family: 'Noto Sans KR', sans-serif; background: #fff;
+box-shadow: 5px 5px 20px rgba(0,0,0,0.1);}  
+
+
+/* .member_tab{padding: 30px 0;border-top: 1px solid #333;}
+.member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa;}
+.member_tab a.on{color: #fff;border-bottom: 2px solid #333;font-weight: bold}
+.member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #fff;font-weight: bold} */
+
+.join{text-align: left; position: relative;}
+.join h3{font-size: 40px; margin-bottom: 50px; color: #333; text-align: center;}
+.join h3::before{content: ''; position: absolute; top: 65px; left: 290px; width: 170px; height: 2px;
+background: red;}
+.join h4{font-size: 20px;margin: 30px 0; color: #333;}
+.join .policy{padding: 10px; overflow-y: scroll; height: 80px; margin: 20px 0;
+border: 1px solid #ddd; background: #fff; font-size: 14px; line-height: 1.5em;}
+.join .check{color: #333; margin: 20px 0 60px;}
+.join .button{text-align: center;margin-top: 30px}
+.join .okcheck,.join .allcheck{display: inline-block; width: 169px;
+line-height: 24px;padding: 20px 100px;border: none;background: red;color: #fff;
+font-size: 18px;cursor: pointer; transition: all 0.5s ease;}
+.join .allcheck{background: transparent; border: 1px solid #ccc; color: #333;
+font-weight: 500; margin: 0 6px 0 0;}
+.join .allcheck:hover{border: 1px solid #333;}
+.join .okcheck:hover{background: #0c2340;}
+
+/* 체크박스 UI 변경 */
+input[type=checkbox] + label::before {
+display: inline-block;
+width: 18px;
+height: 18px;
+background-color: transparent;
+border: 2px solid #999;
+border-radius: 50%;
+content: '';
+margin: 0px 15px -6px 0px;
+}
+input[type=checkbox] {
+display: none;
+}
+input[type=checkbox] + label {
+cursor: pointer;
+}
+input[type=checkbox]:checked + label::before {
+background: #fff url(../images/checked_bg.png) center center no-repeat;
+border: 2px solid red;
+}
+/* :checked 속성부른거  +는 친구   (눌렀을때 checked라는 속성이생김!) */

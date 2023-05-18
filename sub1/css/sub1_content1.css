@@ -1,0 +1,56 @@
+/* 회사소개 영역 */
+#content .company_overview{width: 2000px; background: #f9f9f9;
+position: relative; left:50%; margin-left: -1000px; top:0; margin-top: 50px;
+font-family: 'Noto Sans KR', sans-serif; overflow: hidden;}
+#content .company_overview img{float: left;}
+#content .company_overview h3{font-size: 2.5em; font-weight: 700; margin: 100px 0 0 1080px;}
+#content .company_overview ul{margin:10px 0 0 1080px;}
+#content .company_overview li{margin-top: 50px;}
+#content .company_overview li:first-child{margin-top: 25px;}
+#content .company_overview li:last-child{margin-bottom: 25px;}
+#content .company_overview li::after{content: ''; border-bottom: 1px solid #ccc;
+display: block; width: 520px; position: relative; top:25px;}
+#content .company_overview li::after:last-child{content: '';
+border-bottom: 1px solid #ccc; display: block;}
+#content .company_overview dl{overflow: hidden;}
+#content .company_overview dt{float: left; margin-right: 90px;
+font-size: 1.125em; font-weight: 700;}
+#content .company_overview li:nth-of-type(2) dt{margin-right: 70px;}
+#content .company_overview li:nth-of-type(3) dt{margin-right: 55px;}
+#content .company_overview li:nth-of-type(7) dt{margin-right: 50px;}
+#content .company_overview dd{font-size: 1.125em; font-weight: 700; color: #666;}
+/* 핵심가치 영역 */
+#content .core_value{width: 1200px; font-family: 'Noto Sans KR', sans-serif; 
+overflow: hidden; margin-bottom: 50px;}
+#content .core_value h3{margin-top: 100px; font-size: 2.5em; font-weight: 700;
+text-align: center;}
+#content .core_value ul{margin-top: 100px;}
+#content .core_value li{overflow: hidden; position: relative; margin-bottom: 50px;}
+#content .core_value img{float: left;}
+#content .core_value dl{margin-left: 680px; margin-top: 70px;}
+#content .core_value dt{font-size: 1.875em; font-weight: 500; color: red;
+margin-bottom: 30px;}
+#content .core_value dd{font-size: 1.125em; font-weight: 400; line-height: 2em;}
+#content .core_value li:nth-child(2) img{float: right;}
+#content .core_value li:nth-child(2) dl{position: absolute; left:-680px;}
+#content .core_value li:nth-child(4) img{float: right;}
+#content .core_value li:nth-child(4) dl{position: absolute; left:-680px;}
+/* 비전 영역 */
+#content .vision{width: 2000px; position: relative; left:50%;
+margin-left: -1000px; top:0; font-family: 'Noto Sans KR', sans-serif; color: #fff;
+overflow: hidden; background: url(../images/content1/sub1_con3.jpg) fixed center 10px no-repeat;}
+#content .vision_inner{width: 1200px; margin: 0 auto 100px;}
+#content .vision h3{margin-top: 100px; font-size: 40px; font-weight: 700; text-align: center;}
+#content .vision p{font-size: 30px; font-weight: 700; text-align: center; margin-top: 45px;}
+#content .vision span{color: red;}
+
+/* 스크롤 이벤트 영역 */
+.company_overview, .core_value, .vision{visibility: hidden;}
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight {visibility: visible;}
+.company_overview {animation-delay: 0.5s;}
+.core_value {animation-delay: 0.5s;}
+.core_value li:nth-of-type(1){animation-delay: 0.5s;}
+.core_value li:nth-of-type(2){animation-delay: 1s;}
+.core_value li:nth-of-type(3){animation-delay: 1.5s;}
+.core_value li:nth-of-type(4){animation-delay: 2s;}
+.core_value .vison{animation-delay: 0.5s;}

@@ -1,0 +1,33 @@
+#content .content_area{width: 1200px; margin-top: 50px;
+font-family: 'Noto Sans KR', sans-serif;}
+/* 오시는길 탭메뉴 영역 */
+#content .tab{margin-bottom: 50px;}
+#content .tab ul{overflow: hidden;}
+#content .tab li{float: left; width: 25%; height: 70px; text-align: center;}
+#content .tab a{padding: 15px 0 15px 0; font-size: 1.563em; font-weight: 400;
+border: 1px solid #ccc; transition: all 0.5s ease;}
+#content .tab a:hover{color: red; background: #fdf3f3;}
+#content .tab .tab_a1{border: 1px solid red; color: red;}
+/* map content 영역 */
+#content .map_box{height: 1150px; overflow: hidden;}
+#content .map1, #content .map2, #content .map3, #content .map4{
+width: 1200px; overflow: hidden;}
+#content #map_content1, #content #map_content2, #content #map_content3, #content #map_content4
+{width: 1200px; height: 500px; margin-bottom: 100px;}
+/* map location 영역 */
+#content .location{width: 1200px; margin-bottom: 100px;}
+#content .location dl{overflow: hidden; margin-top: 100px;}
+#content .location dl:first-of-type{padding-bottom: 100px; border-bottom: 1px solid #ccc;}
+#content .location dt{float: left; font-size: 30px; font-weight: 700;}
+#content .location dd{margin-left: 640px; font-size: 20px; font-weight: 700;}
+#content .location li{ margin-bottom: 20px; position: relative;}
+#content .location dl:last-of-type li:first-of-type p{margin-left: 110px;}
+#content .location span{display: block; float: left; margin-right: 50px;}
+#content .location p{font-weight: 400; color: #666;}
+#content .location .material-symbols-outlined{position: absolute; left:-50px; top:4px; color: #333;}
+
+
+
+
+
+

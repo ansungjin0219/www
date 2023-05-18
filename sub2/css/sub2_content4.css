@@ -1,0 +1,35 @@
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+/* 서비스개요 영역 */
+#content .service_overview{width: 1200px; margin-top: 50px; overflow: hidden;}
+#content .service_overview h3{font-size: 40px; font-weight: 700;
+margin-top: 50px; text-align: center;}
+#content .service_overview ul{width: 1100px; background: #f5f5f5;  
+margin-top: 100px; overflow: hidden; padding: 50px;}
+/* width:1200px주고 box-sizing: border-box;주면 강제로 1200px맞춰짐 대신 li가 줄어들겠지 */
+#content .service_overview li{font-size: 18px; font-weight: 500;
+width: 1050px; margin-left: 30px; margin-bottom: 20px; color: #666;}
+#content .service_overview li:last-of-type{margin-bottom: 0;}
+/*이용방법 영역 */
+#content .use_way{width: 1200px; margin-top: 100px; padding-bottom: 100px;
+border-bottom: 3px dotted #ccc;}
+#content .use_way h3{font-size: 40px; font-weight: 700; text-align: center;}
+#content .use_way p{margin-top: 100px; font-size: 18px; font-weight: 700;
+text-align: justify; line-height: 2em;}
+#content .use_way ul{font-size: 18px; font-weight: 500; color: #666;
+margin-top: 30px;}
+#content .use_way li{margin-bottom: 10px;}
+#content .use_way strong{color: red; font-weight: 500;}
+#content .use_way span{position: relative; left:0; top:5px; color: red;}
+#content .use_way em{display: block; margin-left: 180px;
+font-style: normal; color: #999;}
+#content .use_way p:last-of-type{margin-top: 30px;}
+/* 이용요금 영역 */
+#content .charge{width: 1200px; margin-top: 100px;}
+#content .charge h3{font-size: 40px; font-weight: 700; text-align: center;}
+#content .charge table{margin: 100px 0; width: 1200px;}
+#content .charge thead{background: #e9e9e9; border-top: 2px solid #333;}
+#content .charge tr{border-left: 3px solid #fff; border-right: 3px solid #fff;}
+#content .charge th{border: 1px solid #ccc; padding: 30px;
+font-size: 20px; font-weight: 700; text-align: center;}
+#content .charge td{border: 1px solid #ccc; padding: 30px;
+font-size: 20px; font-weight: 500; color: #999; text-align: center;}

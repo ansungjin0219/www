@@ -1,0 +1,17 @@
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+/* 요약재무제표 영역 */
+#content .finance{position: relative; margin-bottom: 200px;}
+#content .finance h3{font-size: 40px; text-align: center;
+margin-top: 50px;}
+#content .finance span{display: block; position: absolute;
+right: 0; top:100px; font-size: 1em;}
+#content .finance table{margin-top: 100px; width: 1200px;
+font-size: 20px;}
+#content .finance thead{border-top: 2px solid #333;
+background: #e9e9e9;}
+#content .finance tbody{color: #999;}
+#content .finance tfoot{font-weight: 700;}
+#content .finance tr{border-left: 2px solid #fff; border-right: 2px solid #fff;}
+#content .finance th, td{border: 1px solid #ccc; padding: 30px;
+text-align: center;}
+

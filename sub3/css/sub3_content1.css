@@ -1,0 +1,49 @@
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+/* ESG전략 이미지영역 */
+#content .esg_strategy{width: 2000px; height: 300px; position: relative; left:50%; top:0;
+background: url(../images/content1/sub3_con1.jpg); margin: 50px 0 370px -1000px;}
+#content .esgstrategy_inner{width: 1200px; margin: 0 auto;}
+#content .esgstrategy_inner strong{display: block; padding-top: 400px;
+font-size: 30px; font-weight: 700;}
+#content .esgstrategy_inner p{margin-top: 10px; font-size: 18px; 
+font-weight: 500; text-align: justify;}
+#content .esgstrategy_inner p:first-of-type{margin-top: 30px;}
+/* ESG란? 영역 */
+#content .esg_ex{width: 1200px; clear: both; overflow: hidden;
+margin-bottom: 100px;}
+#content .esg_ex h3{font-size: 40px; font-weight: 700; text-align: center;
+margin-top: 100px;}
+#content .esg_ex>div{width: 1200px; height: 200px; background: url(../images/content1/sub3_con2.jpg)
+center fixed no-repeat; margin-top: 100px; overflow: hidden;}
+#content .esg_ex p{font-size: 18px; font-weight: 400; text-align: center;
+margin-top: 90px; color: #fff;}
+/* ESG 전략체계 영역 */
+#content .esg_system{width: 1200px; background: #f5f5f5; overflow: hidden;}
+#content .esg_system h3{font-size: 40px; font-weight: 700; text-align: center;
+margin-top: 100px;}
+#content .esg_system p{margin-top: 30px; font-size: 18px; font-weight: 500;
+text-align: center;}
+#content .esg_system>div{margin: 100px 0 100px 0; position: relative;}
+#content .esg_system strong{background: red; width: 300px;
+display: block; text-align: center; padding: 20px 0 20px 0; border-radius: 100px;
+font-size: 20px; font-weight: 500; color: #fff; margin-left: 450px;}
+#content .esg_system strong::before{content: ''; display: block;
+background: red; width: 700px; height: 1px; position: absolute;
+left:250px; top:178px;}
+#content .esg_system strong::after{content: ''; display: block;
+background: red; width: 1px; height: 100px; position: absolute;
+left:600px; top:80px;}
+#content .esg_system span{display: block;}
+#content .esg_system ul{overflow: hidden; margin-top: 130px;}
+#content .esg_system li{float: left; background: #fff; width: 250px;
+height: 250px; border-radius: 250px; margin-left: 100px; }
+#content .esg_system li:first-of-type{margin-left: 130px;}
+#content .esg_system li::before{content: ''; background: red;
+display: block; width: 1px; height: 50px; position: absolute;
+left:250px; top:178px;}
+#content .esg_system li:nth-of-type(2)::before{left: 600px}
+#content .esg_system li:nth-of-type(3)::before{left:950px}
+#content .esg_system dl{margin-top:50px; text-align: center;}
+#content .esg_system dt{font-size: 18px; font-weight: 700;
+margin-bottom: 15px;}
+#content .esg_system dd{font-size: 18px; font-weight: 400;}

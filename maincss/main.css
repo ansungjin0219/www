@@ -1,0 +1,265 @@
+.text{position: fixed; right:0; top: 0;
+  font-size: 50px; z-index: 100}
+/* 메인비주얼 */
+.main_visual{width: 2000px; height: 950px; overflow: hidden;
+position: relative; left: 50%; margin-left: -1000px; 
+font-family: 'Noto Sans KR', sans-serif; background: #000;}
+.main_visual .gallery{position:relative;left:0; top:0; overflow:hidden; width:2000px; height:950px;}
+.main_visual .gallery li{display:none; position: relative;}
+
+.main_visual .gallery img{animation: ani 30s linear infinite;}
+@keyframes ani {
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
+}
+
+.main_visual .gallery li span{position: absolute; left: 390px; top: 410px; opacity: 0; 
+font-size: 50px; color: #fff; font-size: 55px; font-weight: 700;}
+.main_visual .gallery li span:last-of-type{font-size: 40px; top:500px;}
+.main_visual .gallery .link2 span:last-of-type{font-size: 25px;}
+
+/* .gallery .link1 span{ left:  100px; top: 300px;} */
+
+.main_visual .dock{width:330px; position:absolute; left:900px; top:800px;}
+
+.main_visual .dock .mbutton{ margin-right:15px; cursor:pointer; 
+display:block; float:left; width:16px; height:16px;
+background: rgba(255,255,255,0.5); border-radius:8px;
+transition: all .5s}
+
+.main_visual .dock .ps{ margin-right:15px; margin-top: -5px; cursor:pointer; 
+display:block; float:left; width:25px; height:25px;}
+.main_visual .dock .ps i{font-size: 25px; color: #fff}   
+
+.main_visual .btn{display: block; width: 80px; height: 80px; background: rgba(0,0,0,0.3);
+position: absolute;  top:400px;cursor:pointer; }
+.main_visual .btn i{font-size: 55px; color: #fff; padding-left: 20px; padding-top: 13px;}
+.main_visual .btnLeft{left:50%; margin-left: -955px;}
+.main_visual .btnRight{left:50%; margin-left: 870px;}
+/* 본문콘텐츠 */
+#content{width: 100%;}
+/* 사업소개 영역 */
+/* 고객서비스사업 영역 */
+#content .business_introduction{width: 1200px; margin: 100px auto; 
+overflow: hidden;}
+#content .business_introduction ul .business1, .business2, .business3, .business4{
+overflow: hidden; display: none;}
+#content .con1{float: left; position: relative; margin-bottom: 50px;}
+#content .con1 h4{font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
+font-size: 2.5em; margin-bottom: 23px;}
+#content .con1 p{font-family: 'Noto Sans KR', sans-serif; font-weight: 500;
+line-height: 1.5em; text-align: left; width: 570px;}
+#content .con1 a:nth-of-type(1){color: #666; width: 100px;
+font-family: 'Noto Sans KR', sans-serif; font-weight: 400; color: #666;
+margin-top: 23px; transition: all 0.5s ease;}
+#content .con1 a:nth-of-type(1):hover{color: red;}
+#content .con1 a:nth-of-type(1) span{position: absolute; top:154px ; left:106px;
+width: 25px; font-size: 20px;}
+#content .con1 a:nth-of-type(2){background: red; width: 60px; height: 60px;
+position: absolute; left:0; top:220px; transition: all 0.5s ease;}
+#content .con1 a:nth-of-type(2):hover{background: #b10000;}
+#content .con1 a:nth-of-type(2) span{color: #fff;
+margin: 15px 17px; font-size: 30px;}
+#content .con1 a:nth-of-type(3){background: red; width: 60px; height: 60px;
+position: absolute; left:61.5px; top: 220px; transition: all 0.5s ease;}
+#content .con1 a:nth-of-type(3):hover{background: #b10000;}
+#content .con1 a:nth-of-type(3) span{color: #fff;
+margin: 15px 17px; font-size: 30px;}
+#content .con1_img1{margin-top: 125px; width: 575px; height: 300px;
+overflow: hidden;}
+#content .con1_img1 img{transform: scale(1); transition: all 0.5s ease;}
+#content .con1_img1 img:hover{transform: scale(1.1);}
+
+#content .con1_img2{width: 575px; height: 600px; float: right; overflow: hidden;}
+#content .con1_img2 img{transform: scale(1); transition: all 0.5s ease;}
+#content .con1_img2 img:hover{transform: scale(1.1);}
+/* 고객서비스사업, 아이콘 이전값 */
+#content .con1_text{opacity: 0; position: relative; bottom:300px; transition: all 1s ease;}
+#content .con1_imgbox1{margin-left: -800px; opacity: 0;transition: all 1s ease;}
+#content .con1_imgbox2{margin-right: -800px; opacity: 0;transition: all 1s ease;}
+#content .con1_iconbox{opacity: 0; position: relative; bottom: -100px; 
+transition: all 1s ease; transition-delay: 1s; }
+/* 고객서비스사업, 아이콘 최종값(목적지) */
+#content .con1_textmove{opacity: 1; position: relative; bottom:0;}
+#content .con1_imgmove1{margin-left: 0px; opacity: 1;}
+#content .con1_imgmove2{margin-right: 0px; opacity: 1;}
+#content .con1_iconmove{opacity: 1; position: relative; bottom: 0px;}
+
+/* 아이콘 */
+#content .business_icon{clear: both; width: 1200px; overflow: hidden;}
+#content .business_icon li{float: left; margin-left: 120px; width:150px; height: 160px;
+margin-top: 50px; text-align: center;}
+#content .business_icon li a{display: block; text-align: center;}
+#content .business_icon li a span{font-family: 'Noto Sans KR', sans-serif;
+font-weight: 700; font-size: 1.25em; color: #666; display: block;}
+#content .business_icon li:nth-of-type(3) span{margin-left: 15px;}
+#content .business_icon li img{padding: 35px; margin-bottom: 20px;
+background: #fff; border-radius: 20px; box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+transition: all 0.5s ease;}
+#content .business_icon li img:hover{transform: scale(1.2);}
+
+
+/* #content .con2 li:nth-of-type(1){background: url(../images/icon_1.png)
+  no-repeat; margin-left: 150px; }
+  #content .con2 li:nth-of-type(2){background: url(../images/icon_2.png)
+    no-repeat;}
+  #content .con2 li:nth-of-type(3){background: url(../images/icon_3.png)
+    no-repeat;}
+  #content .con2 li:nth-of-type(4){background: url(../images/icon_4.png)
+    no-repeat; margin-right: 150px;} */
+
+/* ESG경영 영역 */
+#content .esg_management{width: 2000px; position: relative;
+left:50%; margin-left: -1000px; background: #f9f9f9; padding-bottom: 100px; padding-top:100px; z-index: 0;}
+#content .esg_management .esg_inner{width: 1200px; margin: 0 auto;}
+#content .esg_management h3{font-family: 'Noto Sans KR', sans-serif;
+font-weight: 700; font-size: 2.5em; margin-bottom: 18px;}
+#content .esg_management p{font-family: 'Noto Sans KR', sans-serif;
+font-weight: 500; font-size: 1.125em; line-height: 1.5em;
+margin-bottom: 53px;}
+/* ESG전략,활동 공통 영역 */
+#content .esg_management ul{overflow: hidden; position: relative;}
+#content .esg_management ul li{float: left; position: relative;}
+#content .esg_management ul li h4{font-family: 'Noto Sans KR', sans-serif; color:#fff;
+  font-weight: 700; font-size: 1.875em;}
+#content .esg_management ul li p{font-family: 'Noto Sans KR', sans-serif; color:#fff;
+  font-weight: 500; font-size: 1em; line-height: 1.5em;}
+#content .esg_management ul li a{background: rgba(255,255,255,0.6); width: 200px; height: 50px; position: absolute;}
+#content .esg_management ul li a::before{content: ''; display: block; width: 0px; height: 50px;
+background: red; position: absolute; z-index: 0; left:0; top:0;
+transition: all 0.5s ease; transition-delay: 0.3s;}
+#content .esg_management ul li:hover a::before{content: ''; width: 200px;}
+/* #content .esg_management ul li a:hover span{color: #333;} */
+#content .esg_management ul li span:first-child{display: block; color: #fff; padding: 12px 0 0 12px;
+font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 500; position: relative;}
+#content .esg_management ul li span:last-child{display: block; color: #fff; position: absolute; right: 12px; top:12px}
+#content .esg_management ul li .imgbox{position: relative; z-index: -1; overflow: hidden;}
+#content .esg_management ul li img{filter: grayscale(0); transform: scale(1); transition: all 0.5s ease;}
+#content .esg_management ul li:hover img{filter: grayscale(1); transform: scale(1.1);}
+/* ESG전략 영역 */
+#content .esg_management ul li:first-child h4{position: absolute; left:48px; top:270px;}
+#content .esg_management ul li:first-child p{position: absolute; left:50px; top:320px;}
+#content .esg_management ul li:first-child a{left:50px; top:450px}
+/* ESG활동 영역 */
+#content .esg_management ul li:last-child h4{position: absolute; right:438px; top:300px;}
+#content .esg_management ul li:last-child p{position: absolute; right:120px; top:350px;}
+#content .esg_management ul li:last-child a{left:50px; top:500px}
+#content .esg_management ul li:last-child .imgbox{margin-top: 50px;}
+/* ESG경영 이전값 */
+#content .esg_text{opacity: 0; transition: all 1s ease;}
+#content .esg_conleft{top:50px; opacity: 0; transition: all 1s ease; transition-delay: 1s;}
+#content .esg_conright{top:-50px; opacity: 0; transition: all 2s ease; transition-delay: 1s;}
+/* ESG경영 최종값(목적지)*/
+#content .esg_textmove{opacity: 1;}
+#content .esg_conleftmove{position: relative; top:0px; opacity: 1;}
+#content .esg_conrightmove{position: relative; top:0px; opacity: 1;}
+
+/* 언론보도 영역 */
+#content .media_report{width: 2000px; margin-top: 100px; position: relative; left:50%;
+margin-left: -1000px; overflow: hidden;}
+#content .media_report::after{content:''; width: 900px; height: 610px; background: #0c2340;
+position: absolute; right:50%; top:120px; z-index: -10; margin-right: 65px;}
+#content .media_report h3{font-family: 'Noto Sans KR', sans-serif;
+font-size: 2.5em; font-weight: 700; width: 1200px; margin: 0 auto;}
+#content .mediareport_inner{width: 4000px; position:relative; left:0; top:0; }
+#content .media_report ul{float: left; margin-top: 110px;}
+#content .media_report ul li{width: 360px; height: 510px; float: left;
+margin-left: 20px; margin-right: 20px; background: #fff; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+font-family: 'Noto Sans KR', sans-serif; margin-bottom: 150px; overflow: hidden;}
+#content .media_report ul li img{margin-bottom: 20px;}
+#content .media_report ul li div{width: 360px; height: 310px; overflow: hidden;margin-bottom: 20px;}
+#content .media_report ul li div img{transform: scale(1); transition: all 0.5s ease;}
+#content .media_report ul li:hover div img{transform: scale(1.1);}
+#content .media_report ul li dt{font-size: 1.25em; font-weight: 700; margin-left: 10px;}
+#content .media_report ul li dd{font-size: 1em; font-weight: 500; color: #666;
+margin-top: 10px; margin-left: 10px;}
+#content .media_report ul li dd:last-child{color: #999; font-weight: 400; margin-top: 50px;}
+/* 더보기 아이콘 */
+#content .media_report a .a1{position: absolute; left:50%; top:4px; margin-left: 420px;
+font-size: 40px; transition: all 0.5s ease;}
+#content .media_report a .a1:hover{color: red;}
+#content .media_report a .a2{position: absolute; left:50%; top:4px; margin-left: 480px;
+font-size: 40px; transition: all 0.5s ease;}
+#content .media_report a .a2:hover{color: red;}
+#content .media_report a .a3{position: absolute; left:50%; top:5px; margin-left: 560px;
+font-size: 40px; transform: rotate(0deg); transition: all 0.5s ease;}
+#content .media_report a .a3:hover{color: red; transform: rotate(360deg);}
+/* 언론보도 이전값 */
+#content .media_report{left:80%; opacity: 0; transition: all 1s ease;}
+/* 언론보도 최종값(목적지) */
+#content .media_reportmove{left:50%; opacity: 1;}
+/* 공지사항 영역 */
+#content .notice{width: 2000px; background: #f9f9f9; overflow: hidden;
+position: relative; left:50%; margin-left: -1000px; padding-top: 100px; padding-bottom: 100px;}
+#content .notice_inner{width: 1200px; margin: 0 auto;}
+#content .notice ul{width: 1200px;}
+#content .notice h3{font-family: 'Noto Sans KR', sans-serif;
+font-size: 2.5em; font-weight: 700; margin-bottom: 60px;}
+#content .notice ul li:nth-of-type(1){border-top: 1px solid #333; position: relative;}
+#content .notice ul li:nth-of-type(1)::after{content: '';
+border-bottom: 3px solid red; width: 0; display: block;
+transition: all 0.5s ease;}
+#content .notice ul li:nth-of-type(1):hover::after{content: '';
+border-bottom: 3px solid red; width: 1200px;}
+#content .notice ul li:nth-of-type(2){border-top: 1px solid #999;
+position: relative;}
+#content .notice ul li:nth-of-type(2)::after{content: '';
+border-bottom: 3px solid red; width: 0; display: block;
+transition: all 0.5s ease;}
+#content .notice ul li:nth-of-type(2):hover::after{content: '';
+border-bottom: 3px solid red; width: 1200px;}
+#content .notice ul li:nth-of-type(3){border-top: 1px solid #999;
+border-bottom: 1px solid #333; position: relative;}
+#content .notice ul li:nth-of-type(3)::after{content: '';
+border-bottom: 3px solid red; width: 0; display: block;
+transition: all 0.5s ease;}
+#content .notice ul li:nth-of-type(3):hover::after{content: '';
+border-bottom: 3px solid red; width: 1200px;}
+#content .notice ul li dt{font-family: 'Noto Sans KR', sans-serif;
+font-size: 1.875em; font-weight: 400; margin-left: 145px; margin-top: 35px;}
+#content .notice ul li dd{font-family: 'Noto Sans KR', sans-serif;
+font-size: 1em; font-weight: 400; color: #666; margin: 20px 0 35px 143px; line-height: 1.5em;}
+#content .notice ul li dd:nth-of-type(2){color: #999; position: absolute; left:-140px; top:20px;}
+#content .notice ul li dd:nth-of-type(3){color: #999; position: absolute; right:2px; top:20px;}
+/* 더보기 아이콘 */
+#content .notice .a4{position: absolute; right: 400px; top:110px; 
+font-size: 40px; transform: rotate(0deg); transition: all 0.5s ease;}
+#content .notice .a4:hover{color: red; transform: rotate(360deg);}
+/* 공지사항 이전값 */
+#content .notice{left:-30%; opacity: 0; transition: all 1s ease;}
+/* 공지사항 최종값(목적지) */
+#content .noticemove{left:50%; opacity: 1;}
+/* 인재채용 영역 */
+#content .employment{width: 2000px; background: fixed url(../images/con4.jpg) center bottom
+no-repeat; position: relative; left:50%; margin-left: -1000px; margin-top: 100px;}
+#content .employment .ep_inner{width: 1200px;
+margin: 0 auto; position: relative;}
+#content .employment h3{font-family: 'Noto Sans KR', sans-serif;
+font-size: 2.5em; font-weight: 700; color: #fff;
+padding: 100px 0 0 0;}
+#content .employment p{font-family: 'Noto Sans KR', sans-serif;
+font-size: 1.125em; font-weight: 500; color: #fff;
+padding: 10px 0 100px 0;}
+/* #content .employment .p2{position: absolute; right:0; top:100px;
+background: red; width: 200px; height: 50px;}
+#content .employment .p2 a{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1em; font-weight: 500; color: #fff;
+ background: orange; padding: 10px 0 15px 0}
+#content .employment .p2 span{position: absolute; right:10px; top:10px} */
+#content .employment a{background: red; width: 200px; height: 50px;
+position: absolute; right:0; top:160px;}
+#content .employment a::after{content: ''; height: 50px; width: 0; background: #0c2340;
+position: absolute; left:0; top:0; z-index: 0; display: block;
+transition: all 0.5s ease;}
+#content .employment a:hover::after{content: ''; width: 200px;}
+#content .employment a span:nth-of-type(1){font-family: 'Noto Sans KR', sans-serif;
+font-size: 1em; font-weight: 500; color: #fff;
+margin: 12px 0 0 15px; display: block; position: relative; z-index: 1;}
+#content .employment a span:nth-of-type(2){display: block;
+position: absolute; right: 15px; top:12px; z-index: 1; color: #fff;}
+/* 인재채용 이전값 */
+#content .employment{opacity: 0; transition: all 1s ease;}
+/* 인재채용 최종값(목적지) */
+#content .employmentmove{opacity: 1;}
+

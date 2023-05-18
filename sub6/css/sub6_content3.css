@@ -1,0 +1,26 @@
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+/* kt is 자주 묻는 질문 영역 */
+#content .faq_list{width: 1200px; margin-top: 50px;}
+#content .faq_list h3{font-size: 40px; font-weight: 700; text-align: center;
+margin-bottom: 100px;}
+#content .faq_list .all{background: red; width: 170px; left: 1000px;
+font-size: 16px; font-weight: 500; color: #fff; padding-left: 20px;
+padding-top: 10px; padding-bottom: 12px; position: relative;}
+#content .faq_list .all::before{content: ''; display: block; width: 1px;
+height: 46px; background: rgba(255,255,255,0.4); position: absolute;
+top:0; left:0; transition: all 0.5s ease;}
+#content .faq_list .all:hover::before{content: ''; width: 200px;}
+#content .faq_list .all span{position: absolute; top:8px; right: 10px;
+font-size: 30px;}
+#content .content_area ul{border-top: 2px solid #333; margin-top: 50px;}
+#content .content_area .q{border-bottom: 1px solid #eee;
+position: relative;}
+#content .content_area .q a{padding: 30px; font-size: 20px; padding-left: 100px;}
+#content .content_area .q .fa-q{color: red; font-size: 25px; position: absolute;
+left:40px; top:30px;}
+#content .content_area .a{background: #f8f8f8; display: none;
+padding: 30px; font-size: 16px; position: relative; padding-left: 100px;}
+#content .content_area .a .fa-a{position: absolute; left:40px; top:35px;
+color: #999; font-size: 25px;}
+#content .content_area .q span{font-size: 30px; color: #999;
+display: block; position: absolute; right: 20px; top:20px; cursor: pointer;}

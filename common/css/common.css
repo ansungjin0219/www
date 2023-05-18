@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/* CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none; display: block;}
+img{border: 0; vertical-align: top}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+  /* font-family: 'Noto Sans KR', sans-serif; font-weight: 500
+     font-family: 'Roboto', sans-serif; */
+
+  /* 전체공통영역 */
+/* 스킵네비게이션영역 */
+  #skipNav{position:relative;width:100%;overflow:hidden; z-index: 110;}
+  #skipNav a{display:block; height:1px; margin-bottom:-1px;
+     overflow:hidden; text-align:center; color: #fff; font-size:1.2em; font-weight: bold;}
+  #skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+    display:block;height:auto;padding:15px 0; background: red;}
+  #wrap{width: 100%; overflow: hidden;}
+
+/* 헤더영역 */
+#headerArea{width: 100%; background: rgba(0,0,0,0.5); font-family: 'Noto Sans KR', sans-serif;
+position: fixed; left: 0; top:0; z-index: 100; height: 100px; 
+transition: background .5s;}
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+#headerArea .header_inner::after{content: ''; display: block; clear: both;}
+#headerArea .logo{width: 100px; height: 50px; float: left; margin: 27px 0 0 0;}
+#headerArea .logo a{width: 100px; height: 50px; background: url(../images/logo.png);
+text-indent: -1000px; overflow: hidden;}
+#headerArea #gnb{float: left; margin: 50px 0 0 50px; width: 850px;}
+#headerArea #gnb .dropdownmenu{float: left; width: 100%;}
+#headerArea #gnb .dropdownmenu li.menu{float: left; 
+font-weight: 700; font-size: 1.250em; position: relative; width: 16.6%;}
+#headerArea #gnb .dropdownmenu li a.depth1{color: #fff; padding-right: 10px;
+padding-bottom: 21px; padding-left: 10px; text-align: center;}
+#headerArea #gnb .dropdownmenu li a.depth1::after{content: ''; display: block;
+border-bottom: 2px solid red; position: relative; top:0px; opacity: 0;
+transition: all 0.3s ease;}
+#headerArea #gnb .dropdownmenu li.menu:hover a.depth1::after{opacity: 1;
+top:20px}
+/* 2depth */
+#headerArea #gnb .dropdownmenu li ul{width:100%; height:160px; position:absolute;top:50px;left:0;
+padding:10px 0 50px 0; line-height:2em; display: none;}
+#headerArea #gnb .dropdownmenu li ul a{font-size: 18px; font-weight: 400; color:#666;
+text-align: center;}
+
+#headerArea .top_menu{float: right; overflow: hidden; margin-top: 53px;}
+#headerArea .top_menu li{float: left; margin-right: 30px;}
+#headerArea .top_menu li a{font-weight: 400; font-size: 0.938em; color: #fff;}
+#headerArea .top_menu li:last-child{margin-right: 0; margin-top: 3px;}
+#headerArea .top_menu li span{font-size: 20px;}
+
+/* 푸터영역 */
+#footerArea{width: 100%; background: #f9f9f9; margin-top: 100px;
+border-top: 1px solid #666; font-family: 'Noto Sans KR', sans-serif;}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto; position: relative;}
+#footerArea .foot_link{overflow: hidden; border-bottom: 1px solid #999;
+border-top: #666;}
+#footerArea img{float: left; margin-right: 80px; margin-top: 30px;}
+#footerArea .fnb{overflow: hidden;}
+#footerArea .fnb li{float: left; font-size: 1.125em; font-weight: 400; 
+margin: 60px 50px 30px 0;}
+#footerArea .fnb li a{color: #666;}
+#footerArea .info{font-size: 1em; font-weight: 400; color: #999; 
+margin-top: 45px; padding-bottom: 45px;}
+#footerArea .info p{margin-top: 25px;}
+#footerArea .fs{width: 200px; height: 50px; background: #0c2340; color: #fff; 
+position: absolute; right: 0; top:150px;}
+#footerArea .fs:hover .fs3{transform: rotate(360deg);}
+#footerArea .fs .fs2{font-size: 1em; font-weight: 500;
+padding-top: 13px; padding-left: 15px; display: block;}
+#footerArea .fs .fs3{font-size: 1.875em; display: block; position: absolute; 
+right: 10px; top:10px; transition: all 0.5s ease;}
+#footerArea .fs .fs4{font-size: 1.875em; display: block; position: absolute; 
+right: 10px; top:10px; display: none;}
+#footerArea .fs_list{position: absolute; right: 0; top: 0; width: 200px; height: 200px;
+background: #ccc;right: 0; top:-50px; display: none; font-weight: 500;}
+#footerArea .fs_list li{text-align: center; width: 200px;}
+#footerArea .fs_list li a{color: #0c2340;display: block;
+  padding: 13px 0;}
+#footerArea .fs_list li:hover{background: #fff;}
+#footerArea .fs_list li:hover a{color: red;}
+/* top_move버튼 */
+#footerArea .top_move{
+background: red; width: 70px; height: 70px; overflow: hidden;
+position: fixed; right: 30px; bottom: 30px;}
+#footerArea .top_move .top1{color: #fff; position: relative;
+top:15px; left:15px; font-size: 2.5em; transition: all 0.5s ease;}
+#footerArea .top_move:hover .top1{top:-100px}
+#footerArea .top_move .top2{color: #fff; position: absolute;
+top:100px; left:15px; font-size: 2.5em; transition: all 0.5s ease;}
+#footerArea .top_move:hover .top2{top:15px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
